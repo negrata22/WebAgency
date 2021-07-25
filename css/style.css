@@ -84,7 +84,7 @@ body{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(../img/img-3.png);
+    background: url(../img/3533154.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: hover;
@@ -196,8 +196,24 @@ body{
     margin-top: 20px;
     cursor: pointer;
     transition: 0.5s ;
-
-
 }
-
+.acerca-de .info-container .about-more button:hover{
+    background: var(--blue);
+}
 /** Acerca de Nosotros **/
+
+/** Nuestros Proyectos **/
+.our-projects{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:url(../img/2547942.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+.our-projects .deg-background{
+    position: absolute;
+}
+/** Nuestros Proyectos **/
