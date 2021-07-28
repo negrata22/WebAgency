@@ -266,5 +266,38 @@ body{
     cursor: pointer;
 }
 
-
 /** Nuestros Proyectos **/
+/** Testimonios **/
+.testimonios{
+    width: 100%;
+    margin-top: 120px;
+}
+.testimonios .testimonios-title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.testimonios .testimonios-title h2{
+    font-size: 50px;
+    color: var(--black);
+    font-weight: cover ;
+    margin-bottom: 10px;
+}
+.testimonios .testimonios-title hr{
+    width: 50%;
+    margin: auto;
+    height: 3px;
+    background:  var(--black);
+    border: none;
+}
+.testimonios .box-testimonios{
+    width: 90%;
+    margin: 80px auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/** Testimonios **/
