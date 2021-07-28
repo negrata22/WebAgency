@@ -215,5 +215,56 @@ body{
 }
 .our-projects .deg-background{
     position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0,0, 0.8);
 }
+.our-projects .ejezproject{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.our-projects .container-project{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+.our-projects .container-project .title-project{ 
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    border: solid 2px #fff;
+    text-align: center;
+}
+
+.our-projects .container-project .title-project h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: normal;
+}
+.our-projects .container-project .title-project hr{
+    background: #fff;
+    width: 50%;
+    margin: 10px auto;
+}
+.our-projects .project-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding-top: 100px;
+}
+.our-projects .project-img img{
+    width: calc(30% - 10px);
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
 /** Nuestros Proyectos **/
