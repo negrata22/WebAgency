@@ -267,6 +267,7 @@ body{
 }
 
 /** Nuestros Proyectos **/
+
 /** Testimonios **/
 .testimonios{
     width: 100%;
@@ -280,14 +281,14 @@ body{
 .testimonios .testimonios-title h2{
     font-size: 50px;
     color: var(--black);
-    font-weight: cover ;
+    font-weight: normal;
     margin-bottom: 10px;
 }
 .testimonios .testimonios-title hr{
-    width: 50%;
+    width: 60%;
     margin: auto;
     height: 3px;
-    background:  var(--black);
+    background: var(--black);
     border: none;
 }
 .testimonios .box-testimonios{
@@ -298,6 +299,53 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
+.testimonios .box-testimonios{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.testimonios .box-testimonios .card-testimonios{
+    width: 45px;
+    margin: 20px;
+}
+.testimonios .box-testimonios .card-testimonios .card-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonios .box-testimonios .card-testimonios .card-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.testimonios .box-testimonios .card-testimonios .testimonios-text{
+    widows: 100%;
+    border: 2px solid var(--red);
+    margin-top: 35px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 200ms;
+}
+.testimonios .box-testimonios .card-testimonios .testimonios-text h4{
+    color: var(--red);
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.testimonios .box-testimonios .card-testimonios .testimonios-text p{
+    font-size: 19px;
+    color: var(--black);
+    text-align: center;
+    line-height: 35px;
+    transition: 200ms;
+}
+
 
 
 /** Testimonios **/
