@@ -269,6 +269,7 @@ body{
 /** Nuestros Proyectos **/
 
 /** Testimonios **/
+
 .testimonios{
     width: 100%;
     margin-top: 120px;
@@ -294,20 +295,12 @@ body{
 .testimonios .box-testimonios{
     width: 90%;
     margin: 80px auto;
-
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.testimonios .box-testimonios{
-    width: 90%;
-    margin: 80px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .testimonios .box-testimonios .card-testimonios{
-    width: 45px;
+    width: 45%;
     margin: 20px;
 }
 .testimonios .box-testimonios .card-testimonios .card-img{
@@ -345,7 +338,5 @@ body{
     line-height: 35px;
     transition: 200ms;
 }
-
-
 
 /** Testimonios **/
