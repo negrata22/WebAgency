@@ -368,48 +368,50 @@ body{
     width: 100%;
     height: 100%;
 }
-.footer .content-footer{
+.footer .footer-content{
     width: 90%;
     padding-top: 100px;
     margin: auto;
 }
-.footer .content-footer .footer-title{
+.footer .footer-content .footer-title{
     width: 50%;
     margin: auto;
     border: 2px solid #fff;
     padding: 15px;
 }
-.footer .content-footer .footer-title h2{
+.footer .footer-content .footer-title h2{
     text-align: center;
     color: #fff;
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 400;
     margin-bottom: 10px;
 }
-.footer .content-footer .footer-title hr{
+.footer .footer-content .footer-title hr{
     width: 80%;
+    height: 2px;
+    background: #fff;
     margin: auto;
 }
-.footer .formulario-content{
-    width: 90%;
+.footer .footer-content .formulario-content{
+    width: 60%;
     background: #fff;
     border-radius: 20px;
     border: 2px solid var(--red);
     margin: 50px auto;
     padding: 30px;
 }
-.footer .formulario-content #formulario{
+.footer .footer-content .formulario-content #formulario{
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.footer .formulario-content #formulario label{
+.footer .footer-content .formulario-content #formulario label{
     text-align: center;
     color: var(--black);
     font-size: 20px;
     margin: 30px 0px 10px 0px;
 }
-.footer .formulario-content #formulario input{
+.footer .footer-content .formulario-content #formulario input{
     width: 90%;
     height: 40px;
     margin: auto;
@@ -420,9 +422,9 @@ body{
     font-size: 18px;
     color: var(--black);
 }
-.footer .formulario-content #formulario textarea{
+.footer .footer-content .formulario-content #formulario textarea{
     width: 90%;
-    height: 200px;
+    height: 100px;
     margin: auto;
     border-radius: 24px;
     outline: none;
@@ -431,11 +433,44 @@ body{
     color: var(--black);
     padding: 20px;
 }
-.footer .formulario-content #formulario .send{
+.footer .footer-content .formulario-content #formulario .send{
     width: 100%;
     justify-content: center;
     display: flex;
-    margin: 40px 0;
-
+    margin: px 0px;
 }
+.footer .footer-content .formulario-content #formulario .send button{
+    width: 150px;
+    height: 40px;
+    background: var(--red);
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+footer .footer-content .formulario-content #formulario .send button:hover{
+    color: var(--blue);  
+}
+.footer .footer-text{
+    position: arelative;
+    bottom: 0%;
+    left: 0%;
+    width: 100% auto    ;
+    height: 40px;
+    background: rgba(0, 0,0, 0.8);
+    border-top: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-text p{
+    color: #fff;
+    font-size: 20px;
+}
+
 /** Footer **/
